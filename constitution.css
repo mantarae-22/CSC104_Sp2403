@@ -1,0 +1,44 @@
+/* format for a CSS style is 
+selector{
+    property: value;
+    property2: value;
+}
+*/
+
+/* Body style - this will impact the whole page */
+body{
+    background-color:rgb(228, 226, 226);
+    /* color is the text color */
+    color: navy; 
+    /* serifed fonts are easier to read when you have a large chunk of text */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* h1 is the heading 1 tag - page title */
+h1{
+    font-size: xx-large;
+    color:rgb(78, 17, 121);
+}
+
+/* h2 is the heading 2 tag - use as many h2 tags as makes sense for the content */
+h2{
+    font-size: x-large;
+    color:rgb(22, 22, 151);
+}
+
+/* h3 is the heading 3 tag - use as many h3 tags as makes sense for the content */
+h3{
+    font-size: large;
+    color:rgb(68, 68, 223);
+}
+
+/* p is the paragraph tag; by default there is space before and after it */
+p{
+    margin: 15px;
+    font-size: large;
+}
+
+/* a is for anchor tag (hyperlink) */
+a{
+    text-decoration: none;
+}
