@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W4 Table Example</title>
+    <style>
+        /* Create some basic styles for the table */
+        table{
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid rgb(11, 8, 29);
+        }
+
+        th, td{
+            text-align: left;
+            padding: 10px;
+        }
+
+        /* set up a background color for the heading  */
+        th{
+            background-color: rgb(45, 45, 100);
+            color: white;
+        }
+
+        /* alternate a light gray background color on every other row (the even rows) */
+        tr:nth-child(even){
+            background-color: rgb(226, 223, 223);
+        }
+
+        /* add a hover effect to our rows */
+        tr:hover{
+            background-color: rgb(56, 56, 80);
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Table Example</h1>
+
+    <!-- Build a table to show tabular data - row/column type information -->
+    <table>
+        <!-- Heading info for the table -->
+        <thead>
+            <!-- tr is table row -->
+            <tr>
+                <!-- table heading; th tags can be horizontal and/or vertical -->
+                <th>Num</th>
+                <th>Fact</th>
+                <th>Reaction</th>
+            </tr>
+
+            <!-- Start displaying the data -->
+            <tr>
+                <!-- td is the table data / cell -->
+                <td>1</td>
+                <td>Honey rarely spoils</td>
+                <td>cool</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Eiffel Tower is taller in the summer</td>
+                <td>interesting</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>The first PC virus was created in the 1980s</td>
+                <td>yikes</td>
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>
